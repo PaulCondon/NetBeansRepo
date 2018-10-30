@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /*A student class should contain some attributes such as 
  Name, Age, DOB, ID, username, courses and modules registered for, etc.).
-A specific method (getUsername()) will generate the studentâ€™s username by
+A specific method (getUsername()) will generate the student’s username by
 concatenating their name and age.
  */
 public class student {
@@ -80,3 +80,4 @@ public class student {
     }
 }
 //changes
+//lots of changes
