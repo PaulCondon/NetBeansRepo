@@ -17,14 +17,14 @@ which must be added as a project dependency.
 public class course {
 
     public String courseName;
-    public ArrayList modules;
-    public ArrayList students;
+    public String modules;
+    public String students;
     public DateTime startDate;
     public DateTime endDate;
  
     
 
-    public course(String courseName, ArrayList modules, ArrayList students, DateTime startDate, DateTime endDate) {
+    public course(String courseName, String modules, String students, DateTime startDate, DateTime endDate) {
         this.courseName = courseName;
         this.modules = modules;
         this.students = students;
@@ -40,19 +40,19 @@ public class course {
         this.courseName = courseName;
     }
 
-    public ArrayList getModules() {
+    public String getModules() {
         return modules;
     }
 
-    public void setModules(ArrayList modules) {
+    public void setModules(String modules) {
         this.modules = modules;
     }
 
-    public ArrayList getStudents() {
+    public String getStudents() {
         return students;
     }
 
-    public void setStudents(ArrayList students) {
+    public void setStudents(String students) {
         this.students = students;
     }
 
