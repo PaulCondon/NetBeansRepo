@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /*A student class should contain some attributes such as 
  Name, Age, DOB, ID, username, courses and modules registered for, etc.).
-A specific method (getUsername()) will generate the student’s username by
+A specific method (getUsername()) will generate the studentï¿½s username by
 concatenating their name and age.
  */
 public class student {
@@ -14,10 +14,10 @@ public class student {
     public String DOB;
     public long ID;
     public String username;
-    public ArrayList regCourses;
-    public ArrayList regModules;
+    public String regCourses;
+    public String regModules;
 
-    public student(String name, int age, String DOB, long ID, ArrayList regCourses, ArrayList regModules) {
+    public student(String name, int age, String DOB, long ID, String regCourses, String regModules) {
         this.name = name;
         this.age = age;
         this.DOB = DOB;
@@ -63,19 +63,19 @@ public class student {
         ID = iD;
     }
 
-    public ArrayList getRegCourses() {
+    public String getRegCourses() {
         return regCourses;
     }
 
-    public void setRegCourses(ArrayList regCourses) {
+    public void setRegCourses(String regCourses) {
         this.regCourses = regCourses;
     }
 
-    public ArrayList getRegModules() {
+    public String getRegModules() {
         return regModules;
     }
 
-    public void setRegModules(ArrayList regModules) {
+    public void setRegModules(String regModules) {
         this.regModules = regModules;
     }
 }
