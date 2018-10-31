@@ -12,10 +12,10 @@ public class module {
 
     public String moduleName;
     public String moduleID;
-    public ArrayList students;
-    public ArrayList courses;
+    public String students;
+    public String courses;
 
-    public module(String moduleName, String moduleID, ArrayList students, ArrayList courses) {
+    public module(String moduleName, String moduleID, String students, String courses) {
         this.courses = courses;
         this.moduleID = moduleID;
         this.moduleName = moduleName;
@@ -39,19 +39,19 @@ public class module {
         this.moduleID = moduleID;
     }
 
-    public ArrayList getStudents() {
+    public String getStudents() {
         return students;
     }
 
-    public void setStudents(ArrayList students) {
+    public void setStudents(String students) {
         this.students = students;
     }
 
-    public ArrayList getCourses() {
+    public String getCourses() {
         return courses;
     }
 
-    public void setCourses(ArrayList courses) {
+    public void setCourses(String courses) {
         this.courses = courses;
     }
 }
