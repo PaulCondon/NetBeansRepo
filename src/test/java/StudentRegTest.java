@@ -16,14 +16,12 @@ import static org.junit.Assert.*;
 public class StudentRegTest {
     
     public static student x;
-    public ArrayList<String> regcourse;
-    public ArrayList<String> regmodules;
+
     
     @BeforeClass
     public static void setUpClass() {
         
-        ArrayList<String> regcourse = new ArrayList<String>();
-        ArrayList<String> regmodules  = new ArrayList<String>();
+
         
         
        // x = new student("Tim", 20, "20/09/1996", 15350786, course, modules);
@@ -32,7 +30,7 @@ public class StudentRegTest {
     @Test
     public void Test() {
 
-        x = new student("Tim", 20, "20/09/1996", 15350786, regcourse, regmodules);
+        x = new student("Tim", 20, "20/09/1996", 15350786, "Civil", "Maths, Structures");
         //x = new student();
 
         String username = x.getUsername();
