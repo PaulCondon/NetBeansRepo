@@ -6,7 +6,7 @@ branches:
         - master
 build:
     ci:
-        - cd src
+     
     on_success:
         - mvn clean
         - mvn test
